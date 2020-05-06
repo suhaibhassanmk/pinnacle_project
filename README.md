@@ -36,6 +36,8 @@ A function defined for the prediction of image.
 
 This function gets the input as an image from the user and predicts if the image has a crack or not.
 
+If the input is a video, then the input is taken and converted into frames and is stored as an image file with jpg extension. Then the images are given as input using a loop so that each image is evaluated.
+
 Dataset is taken from : https://data.mendeley.com/datasets/5y9wdsg2zt/1/files/c0d86f9f-852e-4d00-bf45-9a0e24e3b932
 
 Self Expalainaroty Video for the Project Review Panel : https://drive.google.com/file/d/1GJTZsBoIK-R-jXzHVSpAboD38ORnWjtc/view?usp=sharing
