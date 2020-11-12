@@ -22,7 +22,9 @@ The validation data has 600 images (300 with cracks and 300 without cracks) . Al
 
 The training data has 400 images (200 with cracks and 200 without cracks). All the images are taken and converted into a matrix which is then reshaped.
 
-We import Sequential, Conv2D, MaxPooling2D, Activation, Dropout, Flatten, Dense and load_model from the keras package.
+We use Sequential, Conv2D, MaxPooling2D, Activation, Flatten, Dense and load_model from the keras package.
+
+We use Dropout so that the model does not depend on one particular Neuron.
 
 The CNN model is created using these packages.
 
